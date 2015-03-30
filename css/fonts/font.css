@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('Oswald.eot'); /* IE9 Compat Modes */
+  src: url('Oswald.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Oswald.woff') format('woff'), /* Modern Browsers */
+       url('Oswald.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Oswald.svg#06e91909362921b8a6ebe38382ac36f9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

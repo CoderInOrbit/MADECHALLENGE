@@ -1,0 +1,295 @@
+- var fontSize = 6
+- var lineHeight = fontSize + 1
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title MADE Agency TEAM
+		meta(name="description" content="MADE Agency Team development challenge")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		link(rel="stylesheet", href="./css/common.css")
+		
+	body.load
+		svg(version="1.1" id="pyramades" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 255.5" enable-background="new 0 0 800 255.5" xml:space="preserve")
+			defs
+				pattern(id="james_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce.jpg' width="100" height="135")
+				pattern(id="alain_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce2.jpg' width="100" height="135")
+				pattern(id="ashley_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce3.jpg' width="100" height="135")
+				pattern(id="paul_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce4.jpg' width="100" height="135")
+				pattern(id="dave_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce5.jpg' width="100" height="135")
+				pattern(id="ross_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce6.jpg' width="100" height="135")
+				pattern(id="chris_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce7.jpg' width="100" height="135")
+				pattern(id="adam_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce8.jpg' width="100" height="135")
+				pattern(id="sam_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce9.jpg' width="100" height="135")
+				pattern(id="craig_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce10.jpg' width="100" height="135")
+				pattern(id="byron_pic" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/beyonce.jpg' width="100" height="135")
+				//
+				pattern(id="twitter" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/social/twitter.png' width="10" height="10")
+				pattern(id="pinterest" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/social/pinterest.png' width="10" height="10")
+				pattern(id="behance" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/social/behance.png' width="10" height="10")
+				pattern(id="instagram" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/social/instagram.png' width="10" height="10")
+				pattern(id="linkedin" x="0" y="0" height="1" width="1" patternUnits="objectBoundingBox")
+					image(xlink:href='assets/social/linkedin.png' width="10" height="10")
+				
+
+			g.view
+				g.blank
+					polygon(points="0,31.2 46.8,0 93.7,31.2 46.8,101.4 ")
+				g.blank
+					polygon(points="93.7,146.1 46.8,216.3 0,146.1 46.8,114.9 ")
+				g.blank
+					polygon(points="144.1,224.3 97.2,255.5 50.4,224.3 97.2,154.1 ")
+				g.blank
+					polygon(points="97.2,140.7 50.4,109.5 97.2,39.2 144.1,109.5 ")
+				g.blank
+					polygon(points="101.3,31.2 148.2,0 195,31.2 148.2,101.4 ")
+				g.blank
+					polygon(points="148.2,114.9 195,146.1 148.2,216.3 101.3,146.1 ")
+				g.blank
+					polygon(points="245.4,224.3 198.6,255.5 151.8,224.3 198.6,154.1 ")
+				g.blank
+					polygon(points="198.6,140.7 151.8,109.5 198.6,39.2 245.4,109.5 ")
+				g.blank
+					polygon(points="202.2,31.2 249,0 295.9,31.2 249,101.4 ")
+				g.blank
+					polygon(points="249,114.9 295.9,146.1 249,216.3 202.2,146.1 ")
+				g#james.pyramade
+					polygon(points="346.4,224.3 299.5,255.5 252.7,224.3 299.5,154.1" fill="url(#james_pic)").front
+					polygon(points="346.4,224.3 299.5,255.5 252.7,224.3 299.5,154.1" fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 300 193)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") James
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Gilmour
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Big Daddy
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 300 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 300 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 300 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 300 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 300 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#alain.pyramade
+					polygon(points="299.5,140.7 252.7,109.5 299.5,39.2 346.4,109.5" fill="url(#alain_pic)").front
+					polygon(points="299.5,140.7 252.7,109.5 299.5,39.2 346.4,109.5" fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 300 78)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Graham
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Paterson
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Art Director
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 300 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 300 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 300 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 300 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 300 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#ashley.pyramade
+					polygon(points="303.1,31.2 349.9,0 396.7,31.2 349.9,101.4 " fill="url(#ashley_pic)").front
+					polygon(points="303.1,31.2 349.9,0 396.7,31.2 349.9,101.4 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 350 26)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Chris 
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Edington
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") PHP Wizard
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 350 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 350 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 350 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 350 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 350 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#paul.pyramade
+					polygon(points="349.9,114.9 396.7,146.1 349.9,216.3 303.1,146.1 " fill="url(#paul_pic)").front
+					polygon(points="349.9,114.9 396.7,146.1 349.9,216.3 303.1,146.1 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 350 140)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Ross
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Berkland
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Angular nerd
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 350 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 350 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 350 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 350 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 350 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#dave.pyramade
+					polygon(points="447.2,224.3 400.3,255.5 353.5,224.3 400.3,154.1 " fill="url(#dave_pic)").front
+					polygon(points="447.2,224.3 400.3,255.5 353.5,224.3 400.3,154.1 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 400 193)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Ashleigh
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Denton
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Super Model
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 400 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 400 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 400 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 400 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 400 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#ross.pyramade
+					polygon(points="400.3,140.7 353.5,109.5 400.3,39.2 447.2,109.5 " fill="url(#ross_pic)").front
+					polygon(points="400.3,140.7 353.5,109.5 400.3,39.2 447.2,109.5 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 400 78)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Alain
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Marthezé
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Tattoo Evangelist
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 400 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 400 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 400 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 400 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 400 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#chris.pyramade
+					polygon(points="404.4,31.2 451.3,0 498.1,31.2 451.3,101.4 " fill="url(#chris_pic)").front
+					polygon(points="404.4,31.2 451.3,0 498.1,31.2 451.3,101.4 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 451 26)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Bo
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Bissict
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Dreamweaver God
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 451 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 451 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 451 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 451 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 451 26)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g#adam.pyramade
+					polygon(points="451.3,114.9 498.1,146.1 451.3,216.3 404.4,146.1 " fill="url(#adam_pic)").front
+					polygon(points="451.3,114.9 498.1,146.1 451.3,216.3 404.4,146.1 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 451 140)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Samantha
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Jones
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") MAKE MORE LOGOS
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 451 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 451 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 451 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 451 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 451 140)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g.pyramade
+					polygon(points="548.5,224.3 501.7,255.5 454.8,224.3 501.7,154.1 " fill="url(#craig_pic)").front
+					polygon(points="548.5,224.3 501.7,255.5 454.8,224.3 501.7,154.1 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 502 193)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Paul
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Greeff
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") "Nike"
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 502 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 502 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 502 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 502 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 502 193)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g.pyramade
+					polygon(points="501.7,140.7 454.8,109.5 501.7,39.2 548.5,109.5 " fill="url(#sam_pic)").front
+					polygon(points="501.7,140.7 454.8,109.5 501.7,39.2 548.5,109.5 " fill="white").back
+					g.info
+						text(transform="matrix(1 0 0 1 502 78)" font-size="0" width="55")
+							tspan(x="0" font-size="#{fontSize}" text-anchor="middle") Adam
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Holtrop
+							tspan(x="0" dy="#{fontSize}" font-size="#{fontSize}" text-anchor="middle") -
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle") Time Traveler
+							tspan(x="0" dy="#{lineHeight}" font-size="#{fontSize}" text-anchor="middle")
+						a(transform="matrix(1 0 0 1 502 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-5" y="25" width="10" height="10" fill="url(#linkedin)")
+						a(transform="matrix(1 0 0 1 502 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-19" y="25" width="10" height="10" fill="url(#twitter)")
+						a(transform="matrix(1 0 0 1 502 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="9" y="25" width="10" height="10" fill="url(#pinterest)")
+						a(transform="matrix(1 0 0 1 502 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="-13" y="37" width="10" height="10" fill="url(#instagram)")
+						a(transform="matrix(1 0 0 1 502 78)" xlink:href="http://made.co.za" target="_blank" fill="red")
+							rect(x="3" y="37" width="10" height="10" fill="url(#behance)")
+				g.blank
+					polygon(points="551,114.9 597.8,146.1 551,216.3 504.1,146.1 ")
+				g.blank
+					polygon(points="504.1,31.2 551,0 597.8,31.2 551,101.4 ")
+				g.blank
+					polygon(points="601.4,140.7 554.6,109.5 601.4,39.2 648.2,109.5 ")
+				g.blank
+					polygon(points="648.2,224.3 601.4,255.5 554.6,224.3 601.4,154.1 ")
+				g.blank
+					polygon(points="652.3,114.9 699.2,146.1 652.3,216.3 605.5,146.1 ")
+				g.blank
+					polygon(points="652.3,114.9 699.2,146.1 652.3,216.3 605.5,146.1 ")
+				g.blank
+					polygon(points="749.6,224.3 702.8,255.5 655.9,224.3 702.8,154.1 ")
+				g.blank
+					polygon(points="702.8,140.7 655.9,109.5 702.8,39.2 749.6,109.5 ")
+				g.blank
+					polygon(points="605.5,31.2 652.3,0 699.2,31.2 652.3,101.4 ")
+				g.blank
+					polygon(points="706.3,31.2 753.2,0 800,31.2 753.2,101.4 ")
+				g.blank
+					polygon(points="753.2,114.9 800,146.1 753.2,216.3 706.3,146.1 ")
+
+	script(src="./js/app.js")
